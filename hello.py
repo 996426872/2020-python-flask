@@ -10,6 +10,6 @@ def index():
 
 @app.route('/user/<name>')
 def user(name):
-    return '<h1>Hello, {}!, Have a nice day!This is my first web.</h1>'.format(name.title())
+    return '<h1>Hello, {}!, Have a nice day!.</h1>'.format(name.title())
 
 
