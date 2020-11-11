@@ -2,14 +2,14 @@
 # class序列化为json
 import json
 
+print("反序列化后的dict：", d1)
+
+
 d = dict(name='Bob', age=20, score=80, talkLouder=False)
 j = json.dumps(d)
 print("序列化后的json：", j)
 
 d1 = json.loads(j)
-print("反序列化后的dict：", d1)
-
-
 class Student(object):
 
     def __init__(self, name, age, score, absent):
