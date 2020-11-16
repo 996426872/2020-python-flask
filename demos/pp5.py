@@ -14,3 +14,5 @@ f = now
 print(now.__name__)
 print(f.__name__)
 now()
+# now() log(now)
+
