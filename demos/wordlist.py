@@ -50,6 +50,6 @@ if __name__ == "__main__":
             print("谢谢使用！")
             break
     # 退出前写入文件
-    with open("words.yml", "a") as f:
+    with open("words.yml", "w") as f:
         yaml.dump(word_dic, f)
 
