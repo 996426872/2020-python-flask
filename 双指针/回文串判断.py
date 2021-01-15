@@ -1,3 +1,6 @@
+"""
+判断是字符串是否是回文串
+"""
 class Solution(object):
     def isPalindrome(self, s):
         """
