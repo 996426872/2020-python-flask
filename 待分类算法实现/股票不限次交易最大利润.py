@@ -51,7 +51,7 @@ class Solution:
 
 
 # 调试代码，输入测试数据
-if __name__ == "__main__":
+
     prices = [7,1,5,3,6,4]
     prices_ceshi = [7,1,5,7,3,6,6,6,8,4]
     solu = Solution()
